@@ -29,7 +29,7 @@ const Content = () => {
 
   return (
     <div>
-      <Box  w="100%" h="80vh"  bg="#edf1f5" overflow="auto" paddingTop="1%"  zIndex="4" m >
+      <Box  w="100%" h={{xl: "76vh", "2xl": "80vh"}}  bg="#edf1f5" overflow="auto" paddingTop="1%"  zIndex="4" m >
         {messages && messages.map((message, index) => (
           <div key={index}>
           
